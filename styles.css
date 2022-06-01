@@ -85,3 +85,46 @@ a {
     padding-right: 120px;
     font-size: 18px;
 }
+
+.random {
+    padding: 50px;
+}
+
+.random > p {
+    text-align: center;
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.box {
+    width: 170px;
+    font-size: 18px;
+    color: #746f6fdd;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.illustration {
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 3px;
+}
+
