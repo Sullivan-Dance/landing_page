@@ -44,12 +44,13 @@ a {
 .hero {
     display: flex;
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     justify-content: center;
     padding: 100px;
     gap: 50px;
     padding: 120px 0px;
     padding-bottom: 125px;
+    
 }
 
 .hero-container .heading {
@@ -66,14 +67,15 @@ a {
     color: #E5E7EBcd;
 }
 
-.hero-container button {
+.hero-container button {  
     margin-top: 15px;
-    color: white;
+    color: #F9FAF8;
     background-color: #3882F6;
     border: none;
     padding: 8px 35px;
     font-size: 18px;
-    border-radius: 6px;
+    border-radius: 8px;
+    height: 35px;
 }
 
 .hero .placeholder {
@@ -157,4 +159,37 @@ a {
     font-weight: bold;
     font-size: 20px;
     padding-right: 35px;
+}
+
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    justify-content: space-around;
+    padding: 50px 60px;
+    margin: 100px 210px;
+    border-radius: 7px;
+    align-items: center;
+}
+
+.first .heading {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.first .text {
+    color: #F9FAF8c3;
+    font-size: 17px;
+}
+
+.action button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-style: solid;
+    padding: 5px 35px;
+    font-size: 18px;
+    border-radius: 8px;
+    height: 35px;
 }
