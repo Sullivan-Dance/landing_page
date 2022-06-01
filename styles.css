@@ -119,12 +119,42 @@ a {
 .illustration {
     border: #3882F6;
     border-style: solid;
-    border-radius: 10px;
-    width: 170px;
-    height: 170px;
+    border-radius: 15px;
+    width: 160px;
+    height: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-width: 3px;
+    border-width: 4px;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sizing {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.inspire {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    width: 780px;
+    align-self: center;
+}
+
+.who {
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 35px;
+}
