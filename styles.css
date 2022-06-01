@@ -15,8 +15,7 @@ p {
     background-color: #1F2937;
     justify-content: space-around;
     align-items: center;   
-    padding: 0;
-    padding-top: 7px; 
+    padding-top: 18px;
     
 }
 
@@ -24,12 +23,15 @@ p {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
-    padding-left: 10px;
+    padding: 0;
+    
 }
 
 ul {
     list-style: none;
     display: flex;
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -46,6 +48,8 @@ a {
     justify-content: center;
     padding: 100px;
     gap: 50px;
+    padding: 120px 0px;
+    padding-bottom: 125px;
 }
 
 .hero-container .heading {
@@ -77,6 +81,7 @@ a {
     align-items: center;
     justify-content: center;
     background-color: #746f6fdd;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 18px;
 }
